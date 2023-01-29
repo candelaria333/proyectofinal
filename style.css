@@ -1,0 +1,246 @@
+body{
+    background-image: url("hojasfondo.png");
+}
+header{
+    text-align: center;
+    font-size: 1px;
+}
+
+li{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+
+   
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding: 10px 0;
+}
+
+
+a{
+    color: #000;
+    text-decoration: none;
+    
+    
+}
+form{
+    font-family: 'Montserrat',sans-serif;
+   
+   
+}
+tr{
+    font-family: 'Montserrat',sans-serif;
+}
+
+
+.footer_text{
+    text-align: right;
+   
+  
+}
+.logo-instagram{
+    width: 30px;
+    
+}
+.logo-facebook{
+    width: 30px;
+}
+p{
+  font-family: 'Montserrat',sans-serif;
+ 
+}
+
+
+#sobre-nosotros{
+    text-align: center;
+    align-items: center;
+}
+
+
+#medios-pago{
+    text-align: center;
+    align-items: center;
+}
+
+
+.micolor{
+    background-color: #BCD797;
+}
+
+.fw-bold{
+    
+   
+   font-family: 'Montserrat',sans-serif;
+   font-size: 150%;
+}
+
+.texto-descripcion{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h2{
+    font-size: 150%;
+    align-items: center;
+}
+.form{
+    width:340px;
+    height:440px;
+    background:#e6e6e6;
+    border-radius:8px;
+    box-shadow:0 0 40px -10px #000;
+    margin:calc(50vh - 220px) auto;
+    padding:20px 30px;
+    max-width:calc(100vw - 40px);
+    box-sizing:border-box;
+    font-family:'Montserrat',sans-serif;
+    position:relative;
+}
+input{
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    font-family:'Montserrat',sans-serif;
+    transition:all .3s;
+    border-bottom:2px solid #bebed2;
+}
+input:focus{
+    border-bottom:2px solid #78788c;
+}
+p:before{
+    content:attr(type);
+    display:block;
+    margin:28px 0 0;
+    font-size:14px;
+    color:#5a5a5a;
+}
+button{
+    float:right;
+    padding:8px 12px;
+    margin:8px 0 0;
+    font-family:'Montserrat',sans-serif;
+    border:2px solid #78788c;
+    background:0;color:#5a5a6e;
+    cursor:pointer;
+    transition:all .3s;
+}
+.boton-envio:hover{
+    background:black;
+    color:#fff;
+}
+.buy:hover{
+    background:black;
+    color:#fff;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.content{
+    width: 24%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius:10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: .4s;
+    background-color: #fff;
+}
+.content:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    transform: translate(0px, -8px);
+    transition: .6s;
+}
+.img-cards{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+p{
+    text-align: center;
+    padding: 0 8px;
+    line-height: 24px;
+}
+h6{
+    font-size: 26px;
+    text-align: center;
+    color: #000;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+li{
+    padding: 5px;
+}
+
+button{
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    width: 100%;
+    padding: 15px;
+    border:0px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.buy{
+    background-color: #5AFF15;
+}
+
+@media(max-width: 1000px){
+    .content{
+    width: 46%;
+ }
+}
+@media(max-width: 750px){
+    .content{
+    width: 100%;
+    }
+}
+#footer{
+    background-color: #fffffe;
+    padding-bottom: 1%;
+
+}
+body{
+    background-image: url("hojasfondo1.png");
+}
+

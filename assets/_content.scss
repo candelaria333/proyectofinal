@@ -1,0 +1,206 @@
+
+@use '_commons' as c; 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding: 10px 0;
+}
+header{
+    background: linear-gradient(yellow,#5AFF15);
+    font-size: 1px;
+}
+form{
+    font-family: c.$font-family;
+   
+   
+}
+tr{
+    font-family: c.$font-family;
+}
+// seguir pasando el codigo de css!!!!
+.logo-instagram{
+    width: c.$ancho-logo
+    
+}
+.logo-facebook{
+    width: c.$ancho-logo
+}
+p{
+    font-family: c.$font-family;
+    text-align: center;
+    padding: 0 8px;
+}
+#sobre-nosotros{
+    text-align: center;
+    align-items: center;
+}
+#medios-pago{
+    text-align: center;
+    align-items: center;
+}
+#menu{
+    background: linear-gradient(yellow,#5AFF15);
+}
+.micolor{
+    background-color: map-get(c.$colores,"micolor");
+}
+
+.fw-bold{
+    
+   background-color: map-get(c.$colores,"micolor");
+   font-family: c.$font-family;
+   font-size: 150%;
+}
+.texto-descripcion{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h2{
+    font-size: 150%;
+    align-items: center;
+}
+.form{
+    width:c.$ancho-box;
+    height:c.$alto-box;
+    background:#e6e6e6;
+    border-radius:c.$border-box;
+    box-shadow:0 0 40px -10px #000;
+    margin:calc(50vh - 220px) auto;
+    padding:20px 30px;
+    max-width:calc(100vw - 40px);
+    box-sizing:border-box;
+    font-family: c.$font-family;
+    position:relative;
+}
+input{
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    font-family: c.$font-family;
+    transition:all .3s;
+    border-bottom:2px solid #bebed2;
+}
+input:focus{
+    border-bottom:2px solid #78788c;
+}
+p:before{
+    content:attr(type);
+    display:block;
+    margin:28px 0 0;
+    font-size:14px;
+    color:#5a5a5a;
+}
+button{
+    float:right;
+    padding:8px 12px;
+    margin:8px 0 0;
+    font-family: c.$font-family;
+    border:2px solid #78788c;
+    background:0;color:#5a5a6e;
+    cursor:pointer;
+    transition:all .3s;
+}
+.boton-envio:hover{
+    background:map-get(c.$colores,"boton2");
+    color: map-get(c.$colores,"boton");
+}
+.buy:hover{
+    background:map-get(c.$colores,"boton2");
+    color:map-get(c.$colores,"boton");
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: c.$ancho-boxcard;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.content{
+    width: 24%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius:c.$border-cards;
+    border-top-right-radius: c.$border-cards;
+    border-bottom-right-radius: c.$border-cards;
+    padding-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: .4s;
+}
+.content:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    transform: translate(0px, -8px);
+    transition: .6s;
+}
+.img-cards{
+    width: c.$ancho-img;
+    height: c.$alto-img;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+h6{
+    font-size: 26px;
+    text-align: center;
+    color: map-get(c.$colores,"h6");
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+li{
+    padding: 5px;
+}
+button{
+    text-align: center;
+    font-size: 24px;
+    color: map-get(c.$colores,"boton2");
+    width: c.$ancho-boxcard;
+    padding: 15px;
+    border:0px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: c.$border-boton;
+    border-bottom-left-radius: c.$border-boton;
+}
+.buy{
+    background-color:map-get(c.$colores,"micolor");
+}
+
+@media(max-width: 1000px){
+    .content{
+    width: 46%;
+ }
+}
+@media(max-width: 750px){
+    .content{
+    width: 100%;
+    }
+}
